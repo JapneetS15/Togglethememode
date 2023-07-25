@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.container .toggle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.container .toggle-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition:0.5s;
+}
+.container #text {
+  position: absolute;
+  width: 30px;
+  font-size: 20px;
+  left: 95px;
+  margin-left: 12px;
+}
+.dark-mode {
+  background-color: rgb(51, 46, 46);
+  color: white;
+}
+.dark-mode .toggle-button
+{
+  left: 50px;
+}
+
+#heading
+{
+  position: absolute;
+  left: 45%;
+  top:60%;
+}
